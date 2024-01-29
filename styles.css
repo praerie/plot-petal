@@ -23,16 +23,25 @@ header > img {
 }
 
 nav {
-    padding-left: 0;
+    padding: 1rem;
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
     text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    flex: 1;
+}
+
+nav a {
+    color: #63372c;
+    text-decoration: none;
+    font-weight: 700;
+
 }
 
 section {
