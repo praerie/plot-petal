@@ -22,6 +22,10 @@ header > img {
     margin: 0 auto;
 }
 
+nav {
+    padding-left: 0;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
@@ -48,6 +52,10 @@ article div {
     text-align: center;
 }
 
+article h1 {
+    text-align: center;
+}
+
 article a {
     font-size: 1.1rem;
     color: #26877F;
@@ -62,6 +70,7 @@ article a::before {
 
 footer {
     display: flex;
+    padding: 2rem 0;
 }
 
 footer div {
@@ -73,12 +82,12 @@ footer div {
 }
 
 .header-logo {
-    height: 150px;
+    height: 10rem;
     width: auto;
 }
 
 footer > div > img {
-    height: 100px;
+    height: 5rem;
     width: auto;
 }
 
