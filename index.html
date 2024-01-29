@@ -8,21 +8,24 @@
     <meta name="description" content="">
     <meta name="author" content="Lucky Shrub Design Firm & Nursery">
 
+    <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- LOGO -->
     <header>
-        <img src="./assets/logo-green.png" alt="Lucky Shrubs logo, artistic representation of a potted succulent">
+        <img src="./assets/logo-green.png" 
+             class="header-logo"
+             alt="Lucky Shrubs logo, artistic representation of a potted succulent">
     </header>
     <!-- NAVIGATION MENU -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="#">Products & Services</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -30,35 +33,50 @@
     <main>
         <!-- PROMOTIONAL BANNER -->
         <section>
-            <img src="./assets/succulents.png" alt="A small collection of various potted succulents">
+            <img src="./assets/succulents.png" class="banner"
+                 alt="A small collection of various potted succulents">
         </section>
         <!-- CONTENT COLUMNS -->
         <section>
             <article>
                 <img src="" alt="">
-                <h1>Heading 1</h1>
+                <h1>Our Services</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div>
+                    <a href="#">Book our services</a>
+                </div>
             </article>
             <article>
                 <img src="" alt="">
-                <h1>Heading 2</h1>
+                <h1>Our Plants</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div>
+                    <a href="#">View our collection</a>
+                </div>
             </article>
             <article>
                 <img src="" alt="">
-                <h1>Heading 3</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1>About Us</h1>
+                <p>
+                    We are a family-owned garden design firm and plant nursery,
+                    your one-stop shop for garden services and a large variety of native
+                    plants at our Tucson nursery!
+                </p>
+                <div>
+                    <a href="#">Get to know us</a>
+                </div>
             </article>
         </section>
         <!-- FOOTER -->
-        <section>
+        <footer>
             <div>
-                <img src="./assets/logo-white.png" alt="Lucky Shrubs logo, artistic representation of a potted succulent">
+                <img src="./assets/logo-green.png" 
+                     alt="Lucky Shrubs logo, artistic representation of a potted succulent">
             </div>
-            <div>
-                Copyright &copy; 2024 by Lucky Shrubs
+            <div class="copyright">
+                Copyright &copy; 2024 by Adelie
             </div>
-        </section>
+        </footer>
     </main>
 </body>
 </html>
