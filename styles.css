@@ -2,10 +2,7 @@ body {
     background-color: #F1E4DA;
     font-family: 'Roboto', sans-serif;
     color: #333333;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: 3rem 6%;
 }
 
 header > img {
@@ -13,7 +10,7 @@ header > img {
     margin: 0 auto;
     height: 10rem;
     width: auto;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
 nav {
@@ -46,10 +43,10 @@ nav a::before {
     content: '';
     position: absolute;
     width: 0; 
-    height: 1px; 
+    height: 0.05rem; 
     background: #63372c;
     transition: width 0.4s ease-in-out; 
-    bottom: -12px; 
+    bottom: -0.6rem; 
     left: 50%; 
     transform: translateX(-50%); 
 }
@@ -74,9 +71,9 @@ article {
     text-align: center;
 }
 
-article h1 {
+article h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 article p {
@@ -97,7 +94,8 @@ article a {
     transition: 0.4s ease-in-out;
 }
 
-article a:hover {
+article a:hover,
+.promotion h1 a:hover {
     color: #67ABA5;
 }
 
@@ -116,9 +114,39 @@ footer div {
     flex: 1;
 }
 
-.banner {
-    width: 100%;
+.promotion {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 100%),
+                      url('./assets/succulents.png');
+    background-size: cover;
+    background-position: center;
     border-radius: 0 0 1rem 1rem;
+    width: 100%;
+    height: 304px;
+    position: relative;
+    color: #ffffff;
+}
+
+.promotion h1 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+.promotion h1 a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s ease-in-out;
+}
+
+.promotion p {
+    padding-left: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 footer > div > img {
