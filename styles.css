@@ -1,14 +1,14 @@
 body {
     background-color: #F1E4DA;
     font-family: 'Roboto', sans-serif;
-    color: #333333;
+    color: #63372c;
     margin: 3rem 6%;
 }
 
 header > img {
     display: block;
     margin: 0 auto;
-    height: 10rem;
+    height: 6rem;
     width: auto;
     padding-bottom: 2%;
 }
@@ -33,7 +33,7 @@ nav li {
 
 nav a {
     color: #63372c;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
     font-weight: 700;
     position: relative;
@@ -71,13 +71,14 @@ article {
     text-align: center;
 }
 
-article h2 {
+article h1 {
     text-align: center;
     font-size: 1.6rem;
 }
 
 article p {
-    padding: 8% 16%;
+    font-weight: 200;
+    padding: 8% 12%;
     margin: 0;
 }
 
@@ -95,7 +96,7 @@ article a {
 }
 
 article a:hover,
-.promotion h1 a:hover {
+.about a:hover {
     color: #67ABA5;
 }
 
@@ -114,7 +115,7 @@ footer div {
     flex: 1;
 }
 
-.promotion {
+.about {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -131,23 +132,26 @@ footer div {
     color: #ffffff;
 }
 
-.promotion h1 {
-    font-size: 2.6rem;
-    text-transform: uppercase;
+.about h2 {
+    font-size: 2rem;
     padding-left: 3rem;
     margin: 0;
 }
 
-.promotion h1 a {
+.about a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
     transition: 0.4s ease-in-out;
 }
 
-.promotion p {
+.about p,
+.about a {
     padding-left: 3rem;
     padding-bottom: 1.5rem;
 }
+
 
 footer > div > img {
     height: 5rem;
